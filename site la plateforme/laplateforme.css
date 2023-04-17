@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    font-family: Helvetica;
+}
+body {
+    font-size: 24px;  
+    color: #336699;  
+    }
+
+#tete {
+    justify-items: center;
+    float:left;
+    display: flex;
+    }
+#menu ul {
+    list-style-type:none;
+    }
+#menu li {
+    float:right;
+    margin:1px;
+    background-color:#336699;
+    }
+#menu li a {
+    justify-content: center;    
+    align-items: center;
+    display:flex;
+    height: 71px;
+    width:220px;
+    color:white;
+    text-decoration:none;
+    }
+#menu li a:hover {
+    color:#DC143C;
+    }
+#title {
+    justify-content: left;
+    float: center;
+    display: block;
+    float:left;
+    background-color:white;
+    }
+#total {
+    justify-content: space-between  ;
+    float: left;
+    display: block;
+    background-color:white;
+    }
+#bluebag {
+    background: #336699;
+    width: 100%;
+    color: white;
+    float: left;
+    display: block;
+    }
+#bluebag a {
+    text-decoration:none; 
+    color: white;
+    }
+#bluebag a:hover {
+    color:#DC143C;
+    }
+#job1 {
+    width:33.33%;
+    float:left;
+    text-align:center;
+    }
+#job2 {
+    width:33.33%;
+    float:left;
+    text-align:center;
+    }
+#job3 {
+    width:33.33%;
+    float:left;
+    text-align:center;
+    }
+#sponsor {
+    background: #336699;
+    color: white;
+    float: left;
+    display: block;
+    width: 100%;
+    }
+#spons1 {
+    float: left;
+    text-align:center;
+    width: 100%;
+    }
+#spons2 {
+    float: left;
+    text-align:center;
+    width: 100%;
+    }
+#spons3 {
+    float: left;
+    text-align:center;
+    width: 100%;
+    }
+#brochure a {
+    text-decoration:none; 
+    color: #336699;
+    }
+#brochure a:hover {
+    color:#DC143C;
+    }
+#lowsections {
+    background: white;
+    color: #336699;
+    float: left;
+    display: block;
+    }
+#lowsections a {
+    text-decoration:none; 
+    color: #336699;
+    }
+#lowsections a:hover {
+    color:#DC143C;
+    }
+#job4 {
+    width:33.33%;
+    float:left;
+    text-align:center;
+    }
+#job5 {
+    width:33.33%;
+    float:left;
+    text-align:center;
+    }
+#job6 {
+    width:33.33%;
+    float:left;
+    text-align:center;
+    }
+#videoblock {
+    background: #336699;
+    color: white;
+    float: left;
+    display: block;
+    justify-items: auto;
+    }
+#videoblockreverted {
+    background: white;
+    color: #336699;
+    float: left;
+    display: block;
+    width: 100%;
+    justify-items: auto;
+    }
+#vid1 {
+    width:49.74%;
+    float:left;
+    text-align:center;
+    }
+#vid2 {
+    width:49.74%;
+    float:left;
+    text-align:center;
+    }
+#vid3 {
+    width:33.1%;
+    float:left;
+    text-align:center;
+    }
+#vid4 {
+    width:33.1%;
+    float:left;
+    text-align:center;
+    }
+#vid5 {
+    width:33.1%;
+    float:left;
+    text-align:center;
+    }
+#end {
+    justify-content: left;
+    float: center;
+    display: block;
+    float:left;
+    background-color:#023047;
+    color:white;
+    width:100%;
+    }
+#art {
+    width:29%;
+    float:left;
+    text-align:center;
+    margin:auto;
+    }
